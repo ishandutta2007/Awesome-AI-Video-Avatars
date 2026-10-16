@@ -1,53 +1,48 @@
-# Awesome-AI-Video-Avatars
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Video Avatars Banner" width="100%" />
+</p>
 
-## Top AI Video Avatars Ecosystem
+# 🌟 Awesome AI Video Avatars
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Avatars/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Video-Avatars?style=social&color=white" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Avatars/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Video-Avatars?style=social&color=white" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🚀 Top AI Video Avatars Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Talking-Head Synthesis, Real-Time Face Swap & VTuber Automation*  
+*Focused on Talking-Head Synthesis, Real-Time Face Swap, Digital Humans & VTuber Automation*  
 
 **Last updated: October 2026**
 
+Welcome to **Awesome AI Video Avatars**, the authoritative directory and curated landscape of cutting-edge **AI Video Avatars**, **Talking-Head Generation models**, **Real-Time Face Swap frameworks**, and **VTuber Automation tools**. Whether you are an AI researcher, video engineer, digital marketer, live streamer, or creator looking for enterprise SaaS solutions or fully local, self-hosted open-source pipelines, this guide tracks performance benchmarks, pricing tiers, and production capabilities.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Video Avatars**. These tools enable creators and developers to generate talking-head videos from a single photo, swap faces in real time for live streaming, and build VTuber avatars that lip-sync to microphone input—without expensive rendering infrastructure.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Frameworks for Custom AI Pipelines](#️-frameworks-for-custom-ai-pipelines)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer & Responsible AI](#️-disclaimer--responsible-ai)
 
+---
 
-**Examples** include Synthesia, HeyGen, D-ID, Runway, Pika, Elai.io, Colossyan, DeepBrain AI, Hour One, and Rephrase.ai (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, real-time face swap, and open talking-head generation—ideal for content creators, streamers, and developers seeking transparent, vendor-independent avatar infrastructure.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global AI avatar and digital human market is estimated between **$1.1B and $6.4B in 2025–2026**, growing at a CAGR of ~30–45% as enterprise demand accelerates across corporate L&D, customer service kiosks, and personalized marketing. The sector is currently **moderately to highly fragmented** rather than winner-take-all, segmented across distinct niches such as enterprise communications, real-time conversational streaming agents, localized e-commerce live streamers, and creative entertainment.
 
+---
 
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS & Hosted Commercial Platforms
 
 | Platform | Scale (Valuation / Revenue) | Starting Pricing | Free Tier / Trial Limits | Key Features |
 | :--- | :--- | :--- | :--- | :--- |
@@ -62,132 +57,138 @@ The global AI avatar and digital human market is estimated between **$1.1B and $
 | **[Elai.io](https://elai.io/)** | ~$1.3M ARR (Bootstrapped/Seed) | **$29/mo** (or $23/mo billed annually) for Creator | **Free Forever plan**: 1 min of video render total, 1 seat, restricted slide templates, watermark | PowerPoint-to-video conversion, custom digital avatars, automated multi-language voiceovers |
 | **[Rephrase.ai](https://www.rephrase.ai/)** | Acquired by **Adobe** ($14M raised) | **$25/mo** (Starter tier prior to Adobe integration) | **14-day free trial**: Up to 2 video credits for avatar test renders (now integrated into Adobe ecosystem) | Digital avatars and hyper-personalized video campaigns at scale (acqui-hired by Adobe) |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Curated open-source repositories for self-hosted digital humans, talking-head synthesis, real-time face replacement, and virtual VTuber streams. **Ranked descending by GitHub Stargazer Count.**
 
+1. ### 🎭 [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) [![GitHub stars](https://img.shields.io/github/stars/hacksider/Deep-Live-Cam?style=social&color=white)](https://github.com/hacksider/Deep-Live-Cam/stargazers)
+   - **Real-time face swap and one-click video deepfake with a single image** — the most widely adopted open-source face swap tool.
+   - **Three-click workflow**: Select face → select camera → press live.
+   - **Features**: Mouth Mask (retain original mouth for accurate movement), Face Mapping (different faces on multiple subjects simultaneously), and **OBS virtual camera support** for live streaming.
+   - **Model engines**: Inswapper (128x128), HyperSwap (256x256), ReSwapper, Decart Live (cloud real-time diffusion), and FLUX Live (real-time prompt-based face editing at 30fps).
+   - **Pre-built binaries** for Windows (DirectML, CUDA, OpenVINO), macOS (CoreML), and Linux. *(Non-commercial license)*.
 
+2. ### 🎥 [DeepFaceLive](https://github.com/iperov/DeepFaceLive) [![GitHub stars](https://img.shields.io/github/stars/iperov/DeepFaceLive?style=social&color=white)](https://github.com/iperov/DeepFaceLive/stargazers)
+   - **Real-time face swap for PC streaming and video calls** by the creator of DeepFaceLab.
+   - Low-latency inference pipeline optimized for broadcast streaming and virtual meetings via OBS and DirectShow virtual camera output.
+   - Includes real-time face alignment, lighting correction, and custom neural network weights support.
 
-- **[LongCat-Video-Avatar 1.5 (Meituan)](https://github.com/meituan-longcat/LongCat-Video-Avatar)**  
+3. ### 👤 [LivePortrait](https://github.com/KwaiVGI/LivePortrait) [![GitHub stars](https://img.shields.io/github/stars/KwaiVGI/LivePortrait?style=social&color=white)](https://github.com/KwaiVGI/LivePortrait/stargazers)
+   - **Efficient portrait animation with stitching and retargeting control** by Kuaishou Technology.
+   - Animates static portraits using driving video or audio with precise control over facial expression, eye gaze direction, head pose, and lip synchronization at high FPS.
+   - Highly modular architecture serving as the backbone for numerous production pipelines and derivative open-source tools.
 
-  **Commercial-grade digital human video generation model** (MIT) — **the first open-source avatar model to comprehensively outperform HeyGen in blind benchmarks** . **User Preference Win Rate**: **65.9% vs Kling Avatar 2.0**, **61.1% vs OmniHuman-1.5**, **54.3% vs HeyGen** . **Three core upgrades**: **Whisper-large audio encoder** (replacing Wav2Vec2) for more accurate lip movements on long sentences, fast speech, and singing; **multi-stage data augmentation** with multi-person conversation, silent, and emotional data for open-domain generalization; **GRPO human preference alignment** for hand generation in e-commerce/livestream scenarios . **15x faster inference** via Distributed Matching Distillation (50 steps → 8 steps) and single shared base model + LoRA adapters—**10-second video in ~1 minute** . **Runs on a single NVIDIA H200 (80GB VRAM)** . **Supports** real people, anime, animals, multi-person conversations, and singing .
+4. ### 🗣️ [SadTalker](https://github.com/OpenTalker/SadTalker) [![GitHub stars](https://img.shields.io/github/stars/OpenTalker/SadTalker?style=social&color=white)](https://github.com/OpenTalker/SadTalker/stargazers)
+   - **Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation** (CVPR 2023).
+   - Generates realistic 3D motion coefficients from speech audio and drives 2D portrait photos with expressive head poses and natural blinks.
+   - Native integration with Stable Diffusion WebUI and ComfyUI workflows.
 
+5. ### 👄 [Wav2Lip](https://github.com/Rudrabha/Wav2Lip) [![GitHub stars](https://img.shields.io/github/stars/Rudrabha/Wav2Lip?style=social&color=white)](https://github.com/Rudrabha/Wav2Lip/stargazers)
+   - **Accurately Lip-Syncing Videos to Any Speech in the Wild** (ACM Multimedia).
+   - Foundational deep learning model for synchronizing arbitrary talking-head video clips to any target audio waveform with precise phoneme-to-viseme alignment.
+   - Works across multiple languages and speech cadences.
 
+6. ### 🔄 [Video-ReTalking](https://github.com/vinthony/video-retalking) [![GitHub stars](https://img.shields.io/github/stars/vinthony/video-retalking?style=social&color=white)](https://github.com/vinthony/video-retalking/stargazers)
+   - **Audio-based Lip Synchronization and Facial Expression Editing for In-the-Wild Talking Head Video** (SIGGRAPH Asia 2022).
+   - Disentangles audio-driven lip motion, facial expression generation, and face photo restoration to produce realistic talking videos from in-the-wild inputs without artifacts.
 
-- **[Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)**  
+7. ### ⚡ [MuseTalk](https://github.com/TMElyralab/MuseTalk) [![GitHub stars](https://img.shields.io/github/stars/TMElyralab/MuseTalk?style=social&color=white)](https://github.com/TMElyralab/MuseTalk/stargazers)
+   - **Real-Time High Quality Lip-Syncing with Latent Space Inpainting** by Tencent Music Entertainment.
+   - Runs at 30+ fps on NVIDIA RTX 4090 GPUs; supports multi-lingual inputs and complete face region modification with low latency for interactive real-time avatars.
 
-  **Real-time face swap and one-click video deepfake with a single image** (open-source, **96,916 GitHub stars**) . **The most widely adopted open-source face swap tool** . **Three-click workflow**: select face → select camera → press live . **Features**: Mouth Mask (retain original mouth for accurate movement), Face Mapping (different faces on multiple subjects simultaneously), **OBS virtual camera support** for streaming . **Model engines**: Inswapper (128x128), HyperSwap (256x256, **200% improvement**), ReSwapper, Decart Live (cloud real-time diffusion), FLUX Live (real-time prompt-based face editing at 30fps, requires RTX 5090/6000) . **Pre-built binaries** for Windows (DirectML, CUDA, OpenVINO), macOS (CoreML), and Linux . **Note**: Model used is **non-commercial only** .
+8. ### ⏱️ [LatentSync](https://github.com/bytedance/LatentSync) [![GitHub stars](https://img.shields.io/github/stars/bytedance/LatentSync?style=social&color=white)](https://github.com/bytedance/LatentSync/stargazers)
+   - **Audio Conditioned Latent Diffusion Models for Lip Sync** by ByteDance.
+   - Eliminates pixel-space blurriness by performing lip synthesis directly inside the latent space of diffusion models, yielding crisp photorealistic mouth textures and temporal stability.
 
+9. ### 🎨 [EchoMimic](https://github.com/BadToBest/EchoMimic) [![GitHub stars](https://img.shields.io/github/stars/BadToBest/EchoMimic?style=social&color=white)](https://github.com/BadToBest/EchoMimic/stargazers)
+   - **Lifelike Audio-Driven Portrait Animations through Editable Landmark Conditioning** by Ant Group.
+   - Simultaneously processes speech audio and visual landmark tracks for fine-grained control over head tilting, emotional facial expressions, and natural blinking.
 
+10. ### 🐱 [LongCat-Video-Avatar 1.5](https://github.com/meituan-longcat/LongCat-Video-Avatar) [![GitHub stars](https://img.shields.io/github/stars/meituan-longcat/LongCat-Video-Avatar?style=social&color=white)](https://github.com/meituan-longcat/LongCat-Video-Avatar/stargazers)
+    - **Commercial-grade digital human video generation model** (MIT) by Meituan.
+    - **Benchmark Winner**: 65.9% win rate vs Kling Avatar 2.0, 61.1% vs OmniHuman-1.5, and 54.3% vs HeyGen in blind user preference evaluations.
+    - **Whisper-large audio encoder** for complex syllable cadence, **GRPO human preference alignment** for hand rendering in livestream scenarios, and **15x faster inference** via Distributed Matching Distillation (10s video in ~1 min on a single H200 GPU).
 
-- **[FreeVideoAI](https://github.com/333kjp/freevideoai)**  
+11. ### 🎙️ [AVTR-1 (Avaturn Live)](https://github.com/avaturn-live/avtr-1) [![GitHub stars](https://img.shields.io/github/stars/avaturn-live/avtr-1?style=social&color=white)](https://github.com/avaturn-live/avtr-1/stargazers)
+    - **Open-source real-time avatar model** rendering lip-synced speech and active listening at 25 fps on a single GPU.
+    - **Latency**: L40 (84ms/chunk, 2.4× real-time), RTX 4060 Ti (166ms, 1.2×).
+    - Governed by the AVTR-1 Community License with explicit responsible AI protections against unauthorized biometric synthesis.
 
-  **Free open-source digital human video studio** — one script → one talking-head video with your own face and voice . **Three engine tiers auto-detected by GPU**: **Cloud tier** (no GPU required, OmniHuman cloud engine, ¥1/sec), **Standard tier** (4-16GB VRAM, VoxCPM voice cloning + MuseTalk lip sync, ~8 min for 1-minute video, free), **Flagship tier** (16GB+ VRAM, + LatentSync 1.6 / EchoMimic V3 local, 1-10 min, free) . **Features**: zero-shot voice cloning (5-20 seconds of clean audio), **auto B-roll mixing** with LLM-planned insertion points and Seedance 2.0 product/scene generation, **multi-shot virtual camera** (close-up/medium shot alternation), **production room** with 9-stage visualization, word-level karaoke subtitles, BGM, filters/transitions, cover/title auto-generation, and multi-platform publishing checklist . **Engineering**: SQLite state machine for resumable runs, TTS result caching, per-stage GPU exclusivity, degradation chain logging .
+12. ### 🌐 [facestream](https://github.com/philipp-eisen/facestream) [![GitHub stars](https://img.shields.io/github/stars/philipp-eisen/facestream?style=social&color=white)](https://github.com/philipp-eisen/facestream/stargazers)
+    - **WebRTC remote real-time face swap app** enabling low-spec client devices and laptops to stream real-time face swapping via serverless GPU backends (Modal) and Cloudflare TURN networking.
 
+13. ### 🎮 [OpenVT](https://github.com/erodozer/open-vt) [![GitHub stars](https://img.shields.io/github/stars/erodozer/open-vt?style=social&color=white)](https://github.com/erodozer/open-vt/stargazers)
+    - **Open-source 2D VTuber streaming software** built in Godot engine with native Linux support, VTube Studio asset compatibility, and alpha transparency capture for OBS.
 
+14. ### 🪞 [Brioche Puppet](https://store.steampowered.com/app/4286130/Brioche_Puppet/)
+    - **Free open-source VTuber production software** on Steam supporting MMD and VRM models, MediaPipe video tracking, VMC protocol motion receiver, Bullet Physics, and PBR rendering.
 
-- **[Enliven](https://github.com/CoCoNuT-sTuDiOs/Enliven)**  
+15. ### 🧪 [KuroBlob AI](https://github.com/eykicuihb/KuroBlob-AI) [![GitHub stars](https://img.shields.io/github/stars/eykicuihb/KuroBlob-AI?style=social&color=white)](https://github.com/eykicuihb/KuroBlob-AI/stargazers)
+    - **Living 3D Procedural Jelly Avatar Engine** with 60+ procedural emotions, camera head roll/yaw tracking at 60 FPS, OBS Chroma Key support, and dynamic LLM emotion tagging.
 
-  **AI avatar animation with real expression transfer** (MIT/Apache-2.0) — **commercial-safe** with no research restrictions . **Three inputs**: static avatar photo + driving video (real person with expressions) + optional audio . **Output**: animated avatar video where the avatar mimics the real person's expressions, head movements, and blinks . **Key innovation**: **Real expression transfer from actual driving video**, not audio-guessed—full 3D head rotation, nods, and tilts . **Pipeline**: LivePortrait (expression & pose transfer via MediaPipe Face Mesh, commercial-safe) + optional GFPGAN face enhancement . **Requirements**: Python 3.10+, 8GB RAM minimum (16GB+ recommended), GPU recommended (CPU-only takes 13-20+ hours per 10-second video) .
+16. ### 🤖 [claude-codes-influencers](https://github.com/kevinbadi/claude-codes-influencers) [![GitHub stars](https://img.shields.io/github/stars/kevinbadi/claude-codes-influencers?style=social&color=white)](https://github.com/kevinbadi/claude-codes-influencers/stargazers)
+    - Automated pipeline converting raw scripts into lip-synced vertical videos (1080x1920 MP4 for TikTok/Reels/Shorts) with modular character rigging and Whisper timestamp alignment.
 
+17. ### 🎬 [FreeVideoAI](https://github.com/333kjp/freevideoai) [![GitHub stars](https://img.shields.io/github/stars/333kjp/freevideoai?style=social&color=white)](https://github.com/333kjp/freevideoai/stargazers)
+    - Digital human video studio supporting zero-shot voice cloning (VoxCPM) paired with MuseTalk / LatentSync, automated B-roll insertion, and multi-shot virtual cameras.
 
+18. ### 🧩 [higgsfree](https://github.com/kunal12203/higgsfree) [![GitHub stars](https://img.shields.io/github/stars/kunal12203/higgsfree?style=social&color=white)](https://github.com/kunal12203/higgsfree/stargazers)
+    - Modular AI talking-avatar pipeline combining PuLID SDXL identity preservation, Chatterbox TTS, and Sonic audio-driven facial synthesis inside Docker containers.
 
-- **[higgsfree](https://github.com/kunal12203/higgsfree)**  
+19. ### 🎭 [Avatar Studio](https://github.com/JagTheHero/VTuberAvatarStudio) [![GitHub stars](https://img.shields.io/github/stars/JagTheHero/VTuberAvatarStudio?style=social&color=white)](https://github.com/JagTheHero/VTuberAvatarStudio/stargazers)
+    - Lightweight browser-based VTuber avatar system requiring zero GPU overhead; renders interactive lip-synced avatars directly in OBS browser sources via MediaPipe and three.js.
 
-  **Open-source AI talking-avatar video generation pipeline** — consent video + script → photorealistic talking-head video with **face identity preserved, voice cloned, and lips synced** . **Modular, self-hostable** with reusable building blocks: **PuLID SDXL + RealVisXL** for face identity preservation, **Chatterbox TTS** for zero-shot voice cloning, **Sonic (CVPR 2025)** for audio-driven mouth animation, and scene compositing (studio, cafe, desk) . **Three pipelines**: `avatar_studio` (20GB VRAM, full scene), `portrait` (16GB, head-only), `text_to_video` (24GB, CogVideoX-5b) . **Every PR run automatically on real GPU and scored for quality** before merge . **Docker support** with stage caching for resumable runs .
+20. ### ☁️ [Backblaze AI Avatar Video Generator](https://github.com/backblaze-b2-samples/ai-avatar-video-generator) [![GitHub stars](https://img.shields.io/github/stars/backblaze-b2-samples/ai-avatar-video-generator?style=social&color=white)](https://github.com/backblaze-b2-samples/ai-avatar-video-generator/stargazers)
+    - Full-stack template (Next.js + FastAPI + Backblaze B2) for generating talking-head videos with pluggable provider backends.
 
+21. ### 🍎 [liveportrait-joyvasa](https://pkg.go.dev/github.com/plexusone/omniavatar-core/providers/liveportrait-joyvasa)
+    - Commercial-safe talking-head generation optimized for Apple Silicon MPS (LivePortrait + JoyVASA) replacing non-commercial face libraries with clean MediaPipe architectures.
 
+22. ### 🪄 [Enliven](https://github.com/CoCoNuT-sTuDiOs/Enliven) [![GitHub stars](https://img.shields.io/github/stars/CoCoNuT-sTuDiOs/Enliven?style=social&color=white)](https://github.com/CoCoNuT-sTuDiOs/Enliven/stargazers)
+    - Commercial-safe AI avatar animation engine leveraging driving video performance transfer for natural 3D head rotations, tilts, and micro-expressions.
 
-- **[AVTR-1 (Avaturn Live)](https://github.com/avaturn-live/avtr-1)**  
+---
 
-  **Open-source real-time avatar model** — given a portrait image and dual-stream audio (speech + listening track), renders **lip-synced speech and active listening at 25 fps on a single GPU** . **Performance**: **L40 (84ms/chunk, 2.4× real-time)**, **A100 (91ms, 2.2×)**, **RTX 4060 Ti (166ms, 1.2×)**, **RTX 3070 (181ms, 1.1×)** . **Requires**: CUDA 12.x, TensorRT 10.x, Ampere+ GPU . **License**: AVTR-1 Community License with explicit prohibitions on **non-consensual deepfakes, impersonation, harassment, exploitation of minors, automated decisions affecting legal rights, and military/weapons applications** . **Designed for 25 fps output at near-frontal portrait input**—out-of-distribution poses degrade quality . **Trained on publicly available video content**—may perform unevenly across underrepresented demographics .
+## 🛠️ Frameworks for Custom AI Pipelines
 
+For teams building self-hosted production architectures:
+- **Commercial-Grade Talking-Head Generation**: Deploy **LongCat-Video-Avatar 1.5** or **LivePortrait** paired with **MuseTalk** / **LatentSync**.
+- **Real-Time Broadcast & Face Swap**: Combine **Deep-Live-Cam** or **DeepFaceLive** with OBS virtual camera routing.
+- **Interactive Conversational Avatars**: Integrate **AVTR-1** for dual-stream real-time conversational agents with listening/speaking state switching.
+- **Low-Overhead VTubing**: Use **OpenVT** or **Avatar Studio** for GPU-less streaming and responsive avatar animation.
 
+---
 
-- **[facestream](https://github.com/philipp-eisen/facestream)**  
+## 🤝 How to Contribute
 
-  **Web app for real-time face swap without a powerful machine** (open-source) . **Uses Deep-Live-Cam model** but runs on **remote server via WebRTC**—solves the M1 Mac 0.5 FPS problem . **Deployable on Modal** (serverless GPU platform) with `uv run modal deploy` . **TURN server support for cellular networks** via Cloudflare . **Credits**: Inspired by Deep-Live-Cam; model is **non-commercial use only** .
+Contributions are welcome! To propose new SaaS platforms or open-source repositories:
+1. 🍴 Fork the repository.
+2. 📝 Add or edit entries in `README.md` following the existing tabular or badge format.
+3. 🔗 Include official documentation links, exact pricing / free tier specs, or GitHub stargazer links.
+4. 🚀 Submit a Pull Request with a clear explanation of additions.
 
+---
 
+## 💖 Support
 
-- **[OpenVT](https://github.com/erodozer/open-vt)**  
+If you found this curated ecosystem helpful, please consider supporting the project:
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with colleagues and AI creators.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-  **Open-source 2D VTuber software** — native Linux support, community-driven development, transparent window for OBS alpha capture, adjustable filtering for pixel art models . **VTube Studio compatible**—assets can be shared between both without adjustment . **Built in Godot** (not Unity) with entirely open-source solutions . **Supported trackers**: OpenSeeFace (separate executable), VTube Studio (TCP over Wi-Fi) . **Feature parity with VTS is a goal**, excluding complex features like plugin compatibility and VNet .
+---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Video-Avatars&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Video-Avatars&type=date&legend=top-left)
 
-- **[Avatar Studio (JagTheHero)](https://github.com/JagTheHero/VTuberAvatarStudio)**  
+---
 
-  **Lightweight VTuber avatar system** — "one picture in, a live, lip-synced VTuber out" (MIT) . **Runs in browser**—no GPU required, renders in OBS browser source . **How it works**: base loops (mouth-neutral) ⊕ viseme mouth sprites = final frame . **Five-step workflow**: Design (generate portraits, upload art, or import VRM) → Animate (chained idle clips per emotion) → Mouths (viseme sprite set in character's style) → Build (mouth tracking, chroma key, sprite alignment → portable bundle) → Go Live (runtime picks mouth shape per audio frame via MFCC viseme classification + energy-driven openness) . **VRM path is fully AI-free**—portraits, expressions, and mouth sets rendered from model's own blendshapes . **Third-party**: MediaPipe Tasks (Apache-2.0) for camera-driven emotion tracking, three.js and @pixiv/three-vrm (MIT) for VRM rendering .
+## ⚖️ Disclaimer & Responsible AI
 
-
-
-- **[KuroBlob AI](https://github.com/eykicuihb/KuroBlob-AI)**  
-
-  **Web-native procedural avatar engine** (open-source) — "Living 3D Procedural Jelly Avatar Engine" . **60+ procedural emotions** with Blink-Masked Shape Morphing (0.18s blink animation for transitions) . **Animation Timeline & Montage Story Sequencer**—chain emotions, adjust durations (0.4s-6.0s), automated loop playback . **Native MP4 export** (H.264) for social media without external transcoding . **Web VTuber Mode** at 60 FPS with camera head roll/yaw tracking and 3D spherical head-eye parallax coupling . **BYOK LLM integration** (Ollama, OpenAI-compatible) with SSE streaming and real-time `[EMOTION:XYZ]` dynamic mood tagging . **AI Expression Creator Studio**—natural language prompts compile to Canvas 2D vector drawing code . **OBS Chroma Green Screen Mode** .
-
-
-
-- **[claude-codes-influencers](https://github.com/kevinbadi/claude-codes-influencers)**  
-
-  **Build a talking mascot that turns any script into a lip-synced vertical video** (open-source) . **Outputs 1080x1920 MP4 ready for Reels, TikTok, and Shorts** . **How it works**: your picture → Claude finds the face → mascot folder (mascot.py + sprites/) → script → voice (say/ElevenLabs/Voicebox/mic) → lip sync (Rhubarb: sounds → 9 mouth shapes) + word timings (Whisper) → animator stacks [ears/tail] + [pose] + [eyes] + [mouth] + captions → mp4 . **Three ways to create a mascot**: **Fastest** (upload picture, Claude rigs it in 2 minutes—cuts out character, finds mouth/eyes/skin/outline, renders talking mouths and blinks, checks its own work up to 3 rounds), **Best quality** (Claude Code draws from references using `draw-mascot` skill), or **hand-made** . **Needs**: Python 3.10+, ffmpeg, `ANTHROPIC_API_KEY` .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[DeepFaceLive (iperov)](https://github.com/iperov/DeepFaceLive)** — Real-time face swap for PC streaming or video calls (31,007 GitHub stars) . **The most established alternative to Deep-Live-Cam** .
-
-- **[VTuberAvatarStudio](https://github.com/JagTheHero/VTuberAvatarStudio)** — See Avatar Studio above.
-
-- **[Brioche Puppet](https://store.steampowered.com/app/4286130/Brioche_Puppet/)** — Free open-source VTuber software (Steam) . MMD and VRM animation & model, MediaPipe video detector, VMC protocol motion receiver, Bullet Physics, PBR rendering, toon shading, and global illumination . **Note**: Voxel Cone Tracing GI recommended only for high-end hardware .
-
-- **[liveportrait-joyvasa](https://pkg.go.dev/github.com/plexusone/omniavatar-core/providers/liveportrait-joyvasa)** — Local audio-driven talking-head generation on Apple Silicon MPS (MIT) . **Combines LivePortrait (MIT) and JoyVASA (MIT)** —both fully free with no revenue cap . **Uses MediaPipe (Apache-2.0) as commercial-clean replacement for InsightFace buffalo_l** (which is non-commercial) . **Performance**: ~5 min for 13.7s output on M-series, ~4GB memory .
-
-- **[Backblaze AI Avatar Video Generator](https://github.com/backblaze-b2-samples/ai-avatar-video-generator)** — Open-source AI avatar video generator (Next.js + FastAPI + Backblaze B2) . **Script + avatar → talking-head video with synced voice** . **Pluggable providers**: D-ID (default, free trial), FAL, HeyGen documented . **Full-bucket File Explorer and generic Upload** with B2-backed scaffolding .
-
-- Community **n8n** workflows for avatar video generation pipeline automation and social media publishing.
-
-
-
-**Frameworks for building custom systems**: Combine **LongCat-Video-Avatar 1.5** for commercial-grade talking-head generation with **Deep-Live-Cam** for real-time face swap, **FreeVideoAI** for local voice cloning and lip sync, **AVTR-1** for real-time streaming avatars, and **Avatar Studio** or **KuroBlob AI** for VTuber automation—creating a fully self-hosted, enterprise-grade AI video avatar platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **AI video avatars and face swap tools must comply with consent requirements, right of publicity laws, and data protection regulations (GDPR, CCPA, etc.).** **Never generate likenesses of identifiable individuals without explicit, informed consent.** Deep-Live-Cam's model is **non-commercial use only** .
-
-- **Open-source video avatars have reached commercial parity.** LongCat-Video-Avatar 1.5 **outperformed HeyGen in blind benchmarks** (54.3% user preference win rate) and runs on a single H200 at **15x faster inference** (10-second video in ~1 minute) . **This is a genuine open-source alternative to commercial platforms** .
-
-- **Real-time face swap is accessible but legally constrained.** Deep-Live-Cam has **96,916 GitHub stars** and supports **OBS virtual camera** for streaming . **The model is non-commercial only**—commercial use requires separate licensing .
-
-- **AVTR-1's license sets the standard for responsible AI.** The AVTR-1 Community License **explicitly prohibits non-consensual deepfakes, impersonation, harassment, exploitation of minors, automated decisions affecting legal rights, and military/weapons applications** . **Deployers are responsible for confirming consent** .
-
-- **VTuber tools are maturing rapidly.** OpenVT provides **native Linux support** and **VTube Studio asset compatibility** . Avatar Studio runs **entirely in browser with no GPU required**—renders in OBS browser source . KuroBlob AI adds **60+ procedural emotions and native MP4 export** .
-
-- Self-hosted open-source solutions require proper GPU provisioning (16-24GB VRAM for high-quality pipelines), model management, and ongoing maintenance. **Generated content may require disclosure as AI-generated** to comply with emerging regulations (EU AI Act Article 50).
+- This repository is a **community-curated index** for research, development, and educational evaluation.
+- **Consent & Ethics**: Generating AI avatars, synthetic voices, and face swaps requires strict adherence to privacy laws (GDPR, CCPA), right of publicity, and explicit consent from all individuals involved. Never generate biometric likenesses without explicit authorization.
+- **Licensing Compliance**: Certain open-source weights (such as Deep-Live-Cam base weights or non-commercial facial detection libraries) carry strict research-only licenses. Verify all licensing terms before deploying in commercial settings.
+- **Transparency**: Disclose synthetic media where required by regional regulations (e.g., EU AI Act Article 50).
